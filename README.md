@@ -81,17 +81,22 @@ THEN I should have proper build scripts for a webpack application
 ```
 
 ## Setup
------------- INSERT SETUP --------------------
+* This text editor require a number of methods and store data to an IndexedDB database to be builded up.
 
+* This application will require the installation of Node.js and various npm packages.
+
+* Node Package Manager (npm) is a software manager and installer which puts the modules in place so that the node project can utilize it, and also, it manages dependency conflicts intelligently and initialized using npm init. The package.json will be generated and will contains all the details of the application in which the user have inputted during the npm initialization.
+
+* The required modules are bundled in the package.json file and at CLI or integrated terminal type in npm run install, the modules will be installed.
         
         
 ## Usage
 To use the application from the command line (after installing dependencies):
 
 - Step 1: Open the root directory of the repository in your terminal or bash.
-- Step 2: Bundle the front-end code by entering ```npm run build``` in the command line.
+- Step 2: Bundle the front-end code by entering ```npm i``` in the command line.
 - Step 3: Start the server by entering ```npm run start``` in the command line.
-- step 4: Go to the port on your local host.
+- step 4: Go to the port on your local host in Google Chrome.
 - step 5: Click the "Install" button.
 - step 6: Alternatively, to use the live application, click [here](https://text-editor1111.herokuapp.com).
 
