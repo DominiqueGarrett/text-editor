@@ -78,12 +78,33 @@ THEN I should have proper build scripts for a webpack application
         
         
 ## Usage
------------- INSERT USAGE --------------------
+To use the application from the command line (after installing dependencies):
+
+- Step 1: Open the root directory of the repository in your terminal or bash.
+- Step 2: Bundle the front-end code by entering ```npm run build``` in the command line.
+- Step 3: Start the server by entering ```npm run start``` in the command line.
+- step 4: Go to the port on your local host.
+- step 5: - Click the "Install" button.
+- step 6: Alternatively, to use the live application, click here.
+
+
+Open the root directory of the repository in your terminal or bash.
+Bundle the front-end code by entering npm run build in the command line.
+Start the server by entering npm run start in the command line.
+Go to the port on your local host.
+Click the "Install" button.
+Alternatively, to use the live application, click [here](https://text-editor1111.herokuapp.com).
 
 
 ## Screenshots of Application in Use
 
------------- INSERT SCREENSHOTS --------------------
+The following animation demonstrates the application functionality:
+
+The following image shows the application's manifest.json file:
+
+The following image shows the application's registered service worker:
+
+The following image shows the application's IndexedDB storage:
 
 
 
